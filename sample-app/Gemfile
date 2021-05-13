@@ -51,7 +51,7 @@ gem 'chargebee_rails', '=0.1.0', git: 'http://thirumals:gitlabthiru@gitscm.sprit
 gem "braintree"
 gem 'dotenv-rails', :require => 'dotenv/rails-now'
 gem 'rails_12factor', group: :production
-gem 'puma', group: :production
+gem 'puma', '>= 4.3.8', group: :production
 source 'https://rails-assets.org' do
   gem 'rails-assets-bootstrap', '3.3.5'
 end
